@@ -1,0 +1,33 @@
+Para agregar el código a GitHub, sigue estos pasos:
+
+1. **Prepara tu repositorio**:
+   - Crea una cuenta en [GitHub](https://github.com/) si no tienes una.
+   - Crea un nuevo repositorio:
+     - Haz clic en "New" en la página principal de GitHub.
+     - Asigna un nombre al repositorio (por ejemplo, "Titanic-Data-Analysis").
+     - Configura las opciones (puedes hacerlo público o privado) y haz clic en "Create Repository".
+
+2. **Sube tu código**:
+   - Si tienes Git instalado localmente:
+     - Clona el repositorio en tu máquina local:
+       ```bash
+       git clone https://github.com/tu_usuario/Titanic-Data-Analysis.git
+       ```
+     - Copia el archivo del código (`titanic_analysis_models.py`) al directorio del repositorio.
+     - Añade y sube los cambios:
+       ```bash
+       git add titanic_analysis_models.py
+       git commit -m "Added Titanic data analysis script"
+       git push origin main
+       ```
+   - **Alternativamente**, usa la interfaz web de GitHub:
+     - Abre tu repositorio en GitHub.
+     - Haz clic en "Add file" > "Upload files".
+     - Arrastra y suelta el archivo del código en la página.
+     - Escribe un mensaje de confirmación (commit) y haz clic en "Commit changes".
+
+3. **Agrega el enlace en tu documento**:
+   - Copia el enlace del archivo subido desde el repositorio de GitHub.
+   - Inclúyelo en el documento donde se solicita el código.
+
+Si necesitas ayuda con algún paso, dime en qué entorno estás trabajando y lo adaptaremos.
